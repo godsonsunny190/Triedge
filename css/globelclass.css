@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* Globel Reset */
+
+:root{
+    --primary-clr:#d53d38;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* ******************************** */
+/* Globel Classes */
+/* .container{
+    max-width: 1240px;
+    margin: 0 auto;
+} */
+
+.flex{
+    display: flex;
+}
+
+.jc__sb{
+    justify-content: space-between;
+}
+
+.ai__c{
+    align-items: center;
+}
+
+.flex__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/***************************************/
+/* icons style */
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-linkedin{
+   color:#0077b5;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-google-plus{
+    color: #db4a39;
+}
+.fa-instagram{
+    color: #8a3ab9;
+}
+.fa-home{
+    color: var(--primary-clr);
+}
+.fa-ellipsis-v{
+    color: var(--primary-clr);
+}
+.fa-whatsapp{
+    color: #25D366;
+}
+.fa-envelope-o{
+    color: #EA4335;
+}
+/******************************************/
+.btn-danger{
+    width: 173px;
+    height: 29px;
+    padding: 0px;
+    border-radius: inherit;
+}
+
+
+
+
+/* Fonts style */
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Semibold.woff2') format('woff2'),
+        url('Lato-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
